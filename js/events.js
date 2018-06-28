@@ -6,6 +6,13 @@ function getIt(){
     return;
   });
 }
+
+function framIt(){
+  $('img .tasty').on('load',
+  function(){
+    
+  }
+}
 $(document).ready(function(){
 
 // call functions here
