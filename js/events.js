@@ -1,8 +1,4 @@
 //define functions here
-
-$(document).ready(function(){
-
-// call functions here
 function getIt(){
   $('p').on('click', 
   function(){
@@ -10,5 +6,9 @@ function getIt(){
     return;
   });
 }
+$(document).ready(function(){
+
+// call functions here
+getIt();
 
 });
