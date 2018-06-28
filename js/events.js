@@ -8,7 +8,7 @@ function getIt(){
 }
 
 function frameIt(){
-  $('.tasty').on('load',
+  $('img').on('load',
   function(){
     $(this).css('border', "solid 2px red");
   });
